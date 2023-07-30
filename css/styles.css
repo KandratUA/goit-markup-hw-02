@@ -177,3 +177,21 @@ ul {
 .footer-link:hover {
     color: var(--color-brand);
 }
+
+/*portfolio*/
+
+.name-poster {
+    color: var(--color-primary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+.text-poster {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875;
+    letter-spacing: 0.48px;
+}
