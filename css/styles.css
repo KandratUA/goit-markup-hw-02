@@ -207,6 +207,9 @@ ul {
     line-height: 1.625;
     letter-spacing: 0.48px;
 }
-.portfolio-button:focus {
+.portfolio-button:focus  {
+    background-color: var(--color-brand);
+}
+.portfolio-button:hover {
     background-color: var(--color-brand);
 }
