@@ -1,14 +1,179 @@
+:root {
+    --color-primary: #212121;
+    --color-brand: #2196F3;
+    --color-secondary: #757575;
+    --color-light: #FFF;
+    --color-logo: #000;
+    --color-bg-dark: #2F303A;
+}
+body {
+    color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/*header*/
 .header-logo{
-    color: #000;   
+    color: var(--color-logo);  
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+    
 }
 .header-logo .accent{
-    color: #2196F3;
+    color: var(--color-brand);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    letter-spacing: 0.78px;
     
 }
 .header-link{
-    color: #212121;
+    color: var(--color-primary);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
     
 }
 .header-link:hover {
-    col
+    color: var(--color-brand);
+    
+}
+.contact-link {
+    color: var(--color-secondary);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28
+
+    
+}
+.contact-link:hover {
+    color: var(--color-brand);
+    
+}
+/*hero*/
+.hero-section {
+    background-color: var(--color-bg-dark);
+}
+.hero-title {
+    color: var(--color-light);
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px; 
+    text-transform: uppercase;
+    
+    
+}
+.hero-button {
+    background: var(--color-brand);
+    border: none;
+    color: var(--color-light);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875; 
+    letter-spacing: 0.96px;
+
+}
+/*benefit*/
+.benefit-title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.benefit-text {
+    color: var(--color-secondary);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    
+}
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+/*team*/
+.person-name {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.person-job  {
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    
+}
+/*footer*/
+.footer {
+    background: var(--color-bg-dark);
+    
+}
+.footer-logo{
+    color: var(--color-light);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+    
+}
+.footer-logo .accent {
+    color: var(--color-brand);
+    
+}
+.address-link {
+    color: var(--color-light);
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    
+}
+.address-link:hover{
+    color: var(--color-brand);
+}
+
+.footer-link {
+    color: var(--color-light);
+    opacity: 0.6;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    
+}
+.footer-link:hover {
+    color: var(--color-brand);
 }
